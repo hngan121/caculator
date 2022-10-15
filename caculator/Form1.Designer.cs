@@ -87,7 +87,7 @@
             // bnTru
             // 
             this.bnTru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.bnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnTru.ForeColor = System.Drawing.Color.White;
             this.bnTru.Location = new System.Drawing.Point(59, 213);
             this.bnTru.Name = "bnTru";
@@ -101,7 +101,7 @@
             // 
             this.bnCong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.bnCong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnCong.ForeColor = System.Drawing.Color.White;
             this.bnCong.Location = new System.Drawing.Point(201, 212);
             this.bnCong.Name = "bnCong";
