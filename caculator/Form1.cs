@@ -24,13 +24,24 @@ namespace caculator
 
         private void bnCong_Click(object sender, EventArgs e)
         {
-            if (txtsoa.Text != String.Empty)
-            {
-                double a = double.Parse(txtsoa.Text);
-                double b = double.Parse(txtsob.Text);
-                double c = a + b;
-                txtkq.Text = c.ToString();
-            }
+
+            int a = int.Parse(txtsoa.Text.ToString());
+            int b = int.Parse(txtsob.Text.ToString());
+            Calculation c = new Calculation(a, b);
+
+
+            txtkq.Text = c.Execute("+").ToString();
+            //if (txtsoa.Text != String.Empty)
+
+            //if (txtsoa.Text != String.Empty && txtsob.Text != String.Empty)
+            //{
+
+            //    double a = double.Parse(txtsoa.Text);
+            //    double b = double.Parse(txtsob.Text);
+            //    double c = a + b;
+
+            //    txtkq.Text = c.ToString();
+            //}
         }
 
         private void bnTru_Click(object sender, EventArgs e)
@@ -39,6 +50,16 @@ namespace caculator
             double b = double.Parse(txtsob.Text);
             double c = a - b;
             txtkq.Text = c.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
