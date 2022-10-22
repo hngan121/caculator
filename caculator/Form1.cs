@@ -24,10 +24,13 @@ namespace caculator
 
         private void bnCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtsoa.Text);
-            double b = double.Parse(txtsob.Text);
-            double c = a + b;
-            txtkq.Text = c.ToString();
+            if (txtsoa.Text != String.Empty)
+            {
+                double a = double.Parse(txtsoa.Text);
+                double b = double.Parse(txtsob.Text);
+                double c = a + b;
+                txtkq.Text = c.ToString();
+            }
         }
 
         private void bnTru_Click(object sender, EventArgs e)
